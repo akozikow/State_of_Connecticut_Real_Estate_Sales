@@ -7,3 +7,5 @@ This data is orginally from the State of Connecticut Office of Policy and Manage
 GeoJson data used in mapping was sourced from https://deepmaps.ct.gov/datasets/CTDEEP::connecticut-and-vicinity-town-boundary-set/explore?layer=1&location=41.323050%2C-72.511382%2C9
 
 The GeoJson data will have to be manually downloaded for the code to work as I was getting an error when trying to link to the GeoJson file via the Jupyter notebook. The original data files should be able to be accessed via the notebook just fine.
+
+Check out the Streamlit app I made for the analysis at this link: https://alexkozconnrealestate.streamlit.app/
