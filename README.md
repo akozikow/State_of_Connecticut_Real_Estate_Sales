@@ -8,4 +8,4 @@ GeoJson data used in mapping was sourced from https://deepmaps.ct.gov/datasets/C
 
 The GeoJson data will have to be manually downloaded for the code to work as I was getting an error when trying to link to the GeoJson file via the Jupyter notebook. The original data files should be able to be accessed via the notebook just fine.
 
-Check out the Streamlit app I made for the analysis at this link: https://alexkozconnrealestate.streamlit.app/
+Check out the dashboard app I made with Streamlit for the analysis at this link: https://alexkozconnrealestate.streamlit.app/
