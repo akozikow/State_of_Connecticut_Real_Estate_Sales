@@ -5,3 +5,4 @@ matplotlib
 streamlit_folium
 altair==4.0
 standard-imghdr
+streamlit>=1.26.0
