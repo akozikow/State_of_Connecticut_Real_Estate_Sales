@@ -3,3 +3,4 @@ folium
 branca
 matplotlib
 streamlit_folium
+altair==4.0
