@@ -6,6 +6,7 @@ import branca
 from streamlit_folium import st_folium
 import matplotlib.pyplot as plt
 
+st.set_page_config(layout="wide")
 @st.cache_data
 def load_data(url1, url2):
     data1 = gpd.read_file(url1)
@@ -16,7 +17,6 @@ conn_geojson, conn_data = load_data(
 'https://raw.githubusercontent.com/akozikow/State_of_Connecticut_Real_Estate_Sales/main/conn_geopandas.geojson',
 'https://github.com/akozikow/State_of_Connecticut_Real_Estate_Sales/raw/refs/heads/main/conn_cleaned_data.csv'
 )
-st.set_page_config(layout="wide")
 st.header('Connecticut Housing Data')
 st.write('Original data from the State of Connecticut Office of Policy and Management and sourced via Data.gov at the following link: https://catalog.data.gov/dataset/real-estate-sales-2001-2018.')
 st.write('Geojson data used in folium mapping was sourced from the following source: https://deepmaps.ct.gov/datasets/CTDEEP::connecticut-and-vicinity-town-boundary-set/explore?layer=1&location=41.323050%2C-72.511382%2C9.')
@@ -130,3 +130,4 @@ st.write('The below histogram compares the volume and price of homes sold for th
 col1, col2, col3 = st.columns([1, 4, 1])
 with col2:
     st.pyplot(fig, width=500)
+
